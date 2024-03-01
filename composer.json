@@ -2,7 +2,9 @@
     "name": "valen/blog",
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "Router\\": "routes/",
+            "App\\": "app/",
+            "Database\\": "database/"
         }
     },
     "authors": [
